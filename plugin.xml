@@ -5,6 +5,7 @@
 	<name>Music Controls</name>
 	<keywords>cordova,music,controller,controls,media,plugin,notification,lockscreen,now,playing</keywords>
 	<description>Music controls for Cordova apps</description>
+	<repository>https://github.com/CrowdhubApps/crowdhub-plugin-musiccontrols</repository>
 	<license>MIT</license>
 	<author>Austin Isakson</author>
 

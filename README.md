@@ -2,14 +2,20 @@
 
 Thanks to Github users ghenry22 and homerours on whose work this plugin is based.
 
-<img src='https://imgur.com/fh3ACOq.png' width='564' height='342'>
-
 Music controls for Cordova applications. Display a 'media' notification with play/pause, previous, next buttons, allowing the user to control the play. Handles headset events (plug, unplug, headset button).
 
 ## Supported platforms
-Android API 23+
-iOS 12+
+- Android API 23+
+- iOS 12+
 
+## Platform specific setup
+# Android
+Include these flags in your Cordova project's config.xml for the Android platform:
+```xml
+<preference name="GradlePluginKotlinEnabled" value="true" />
+<preference name="GradlePluginKotlinCodeStyle" value="official" />
+<preference name="GradlePluginKotlinVersion" value="1.7.21" />
+```
 
 ## Methods
 - Create the media controls:
@@ -147,12 +153,6 @@ MusicControls.updateElapsed({
 'music-controls-media-button-meta-left', 'music-controls-media-button-meta-right', 'music-controls-media-button-music',
 'music-controls-media-button-volume-up', 'music-controls-media-button-volume-down', 'music-controls-media-button-volume-mute',
 'music-controls-media-button-headset-hook'
-```
-Include these flags in your Cordova project's config.xml for the Android platform:
-```xml
-<preference name="GradlePluginKotlinEnabled" value="true" />
-<preference name="GradlePluginKotlinCodeStyle" value="official" />
-<preference name="GradlePluginKotlinVersion" value="1.7.21" />
 ```
 
 - iOS Only:

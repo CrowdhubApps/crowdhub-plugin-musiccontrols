@@ -2,6 +2,9 @@
 	"author": {
 		"name": "Austin Isakson"
 	},
+	"repository": {
+		"url": "https://github.com/CrowdhubApps/crowdhub-plugin-musiccontrols"
+	},
 	"bundleDependencies": false,
 	"cordova": {
 		"id": "crowdhub-plugin-musiccontrols",
