@@ -1,0 +1,33 @@
+{
+	"author": {
+		"name": "Austin Isakson"
+	},
+	"bundleDependencies": false,
+	"cordova": {
+		"id": "crowdhub-plugin-musiccontrols",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	"deprecated": false,
+	"description": "Music controls for Cordova apps",
+	"engines": {
+		"name": "cordova",
+		"version": ">=6.0.0"
+	},
+	"keywords": [
+		"cordova",
+		"music",
+		"controller",
+		"controls",
+		"media",
+		"plugin",
+		"notification",
+		"ecosystem:cordova",
+		"cordova-android"
+	],
+	"license": "MIT",
+	"name": "crowdhub-plugin-musiccontrols",
+	"version": "0.0.1"
+}
